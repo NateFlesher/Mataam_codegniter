@@ -1,0 +1,60 @@
+<!-- Modal -->
+<div class="modal fade" id="editEmp" role="dialog">
+	<div class="modal-dialog addClient_modal modal-sm">
+
+	  <!-- Modal content-->
+	  <div class="modal-content">
+	    <div class="modal-body">
+	    	<div>
+                <div class="close_btn" data-dismiss="modal">
+                	<img src="<?php echo base_url(); ?>asset/images/close.png" />
+                </div>
+                <div class="check_btn" onclick="emp_edit()">
+                	<img src="<?php echo base_url(); ?>asset/images/check.png" />
+                </div>
+            </div>
+            <div class="modal_content">
+            	<form>
+				    <div class="form-group form_style">
+				    	<div>
+				    		<span class="form_text">Agent Name :</span>
+				      		<input class="form-control form_input" name="agent_name">
+				    	</div>
+				      	<div>
+				      		<span class="form_text">Mobile Number :</span>
+					      	<div>							
+								<input class="form-control form_input form_input11" name="country_no">
+						      	<input class="form-control form_input form_input2" name="mobile_no">
+					      	</div>
+				      	</div>
+				      	<div>
+				      		<span class="form_text">Email Address : </span><span>"optional"</span>
+				      		<input type='email' class="form-control form_input" name="email_address">
+				      	</div>
+				      	<div>
+				      		<span class="form_text">Role :</span>
+					      	<div>
+					      		<!-- <button class="form-control role_up" name="role_up">Owner</button>
+					      		<button class="form-control role_mid" name="role_mid">Manager</button>
+					      		<button class="form-control role_down" name="role_down">Agent</button> -->
+					      		<div class="radio" style="margin-left: 10px;">
+									<label class="input-radio"><input type="radio" id="role_up" value="role_up" name="role"><span class="form_text">Owner</span></label>
+								</div>
+								<div class="radio" style="margin-left: 10px;">
+									<label class="input-radio"><input type="radio" id="role_mid" value="role_mid" name="role"><span class="form_text">Manager</span></label>
+								</div>
+								<div class="radio" style="margin-left: 10px;">
+									<label class="input-radio"><input type="radio" id="role_down" value="role_down" name="role"><span class="form_text">Agent</span></label>
+								</div>
+					      	</div>
+				      	</div>
+
+				    </div>
+		  		</form>
+            </div>
+		    
+	    </div>
+	  </div>
+	  
+	</div>
+</div>

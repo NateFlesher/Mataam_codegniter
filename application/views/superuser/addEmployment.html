@@ -1,0 +1,57 @@
+<!-- Modal -->
+<div class="modal fade" id="addEmployment" role="dialog">
+	<div class="modal-dialog addClient_modal modal-sm">
+
+	  <!-- Modal content-->
+	  <div class="modal-content">
+	    <div class="modal-body">
+	    	<div>
+                <div class="close_btn" data-dismiss="modal">
+                	<img src="<?php echo base_url(); ?>asset/images/close.png" />
+                </div>
+                <div class="check_btn" data-dismiss="modal">
+                	<img src="<?php echo base_url(); ?>asset/images/check.png" />
+                </div>
+            </div>
+            <div class="modal_content">
+            	<form>
+				    <div class="form-group form_style">
+				      	<span class="form_text">Agent Name :</span>
+				      	<input class="form-control form_input" id="agent_name">
+
+				      	<span class="form_text">Mobile Number :</span>
+				      	<div>							
+							<input class="form-control form_input form_input11" id="country_no">
+					      	<input class="form-control form_input form_input2" id="mobile_no">
+				      	</div>
+
+				      	<span class="form_text">Email Address : </span><span>"optional"</span>
+				      	<input type='email' class="form-control form_input" id="email_address">
+
+				      	<!-- <span class="form_text">Role :</span> -->
+				      	<label for="Role" class="form_text">Role :</label>
+			            <div class="input-group">               
+			                <input type="text" class="form-control" id="Role">
+			                <div class="input-group-btn">
+			                    <button type="button" class="btn btn-default dropdown-toggle vertical-text" data-toggle="dropdown" aria-expanded="false">
+			                     V
+			                    </button>
+			                    <ul class="dropdown-menu pull-right">
+			                     <li><a href="#">Owner</a></li>
+			                     <li><a href="#">Manager</a></li>
+			                     <li><a href="#">Agent</a></li>
+			                    </ul>
+			                </div><!-- /btn-group -->
+			            </div>
+
+				      	<span class="form_text">Password :</span>
+				      	<input type="password" class="form-control form_input" id="password">
+				    </div>
+		  		</form>
+            </div>
+		    
+	    </div>
+	  </div>
+	  
+	</div>
+</div>

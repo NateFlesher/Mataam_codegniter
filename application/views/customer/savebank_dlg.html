@@ -1,0 +1,60 @@
+<!-- Modal -->
+<div class="modal fade" id="addClients" role="dialog">
+	<div class="modal-dialog addbank_modal modal-sm">
+
+	  <!-- Modal content-->
+	  <div class="modal-content">
+	    <div class="modal-body">
+	    	<div>
+                <div class="close_btn" data-dismiss="modal">
+                	<img src="<?php echo base_url(); ?>asset/images/close.png" />
+                </div>
+               
+            </div>
+            <div class="modal_content">
+            	<form>
+				    <div class="form-group form_style">
+				    <!-- Bank name -->
+				      	<span class="form_text">Bank Name :</span>
+				      	<div class="input-group">               
+			                <input type="text" class="form-control" id="Role">
+			                <div class="input-group-btn">
+			                    <button type="button" class="btn btn-default dropdown-toggle vertical-text" data-toggle="dropdown" aria-expanded="false">
+			                     V
+			                    </button>
+			                    <ul class="dropdown-menu pull-right">
+			                     <li><a href="#">IT Company</a></li>
+			                     <li><a href="#">Marketing</a></li>
+			                     <li><a href="#">Economic</a></li>
+			                    </ul>
+			                </div><!-- /btn-group -->
+			            </div>
+			            <!-- Branch -->
+			            <span class="form_text">Branch :</span>
+			            <input class="form-control form_input" id="agent_name">
+			            <!-- Accound holder name -->
+				      	<span class="form_text">Account Holder Name :</span>
+			            <input class="form-control form_input" id="agent_name">
+			            <!-- Account Number -->
+						<span class="form_text">Account Number :</span>
+			            <input class="form-control form_input" id="agent_name">
+			            <!-- IBN -->
+				      	<span class="form_text">IBN:</span>
+				      	<span>*optional*</span>
+
+				      	<input class="form-control form_input" id="address">
+				    	<!-- swift code -->
+				    	<span class="form_text">Swift Code</span>
+				      	<input class="form-control form_input" id="address">
+				    	<div class='action_btn'>
+				      		<button class="SaveBank_btn btn btn-default">Save Bank Account</button>
+				    	</div>
+				    </div>
+		  		</form>
+            </div>
+		    
+	    </div>
+	  </div>
+	  
+	</div>
+</div>

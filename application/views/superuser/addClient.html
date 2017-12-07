@@ -1,0 +1,56 @@
+<!-- Modal -->
+<div class="modal fade" id="addClients" role="dialog">
+	<div class="modal-dialog addClient_modal modal-sm">
+
+	  <!-- Modal content-->
+	  <div class="modal-content">
+	    <div class="modal-body">
+	    	<div>
+                <div class="close_btn" data-dismiss="modal">
+                	<img src="<?php echo base_url(); ?>asset/images/close.png" />
+                </div>
+                <div class="check_btn" data-dismiss="modal">
+                	<img src="<?php echo base_url(); ?>asset/images/check.png" />
+                </div>
+            </div>
+            <div class="modal_content">
+            	<form>
+				    <div class="form-group form_style">
+				      	<span class="form_text">Client Name :</span>
+				      	<input class="form-control form_input" id="client_name">
+
+				      	<span class="form_text">Mobile Number :</span>
+				      	<div>
+				      		<!-- <div class="dropdown mobile_drop_btn">
+							    <button class="dropdown-toggle" data-toggle="dropdown">+20
+							    <span class="caret"></span></button>
+							    <ul class="dropdown-menu">
+							      <li><a href="#">+30</a></li>
+							      <li><a href="#">+10</a></li>
+							      <li><a href="#">+40</a></li>
+							    </ul>
+							</div> -->
+							
+							<input class="form-control form_input form_input11" id="country_no">
+					      	<input class="form-control form_input form_input2" id="mobile_no">
+				      	</div>
+
+				      	<span class="form_text">Email Address : </span><span>"optional"</span>
+				      	<input type='email' class="form-control form_input" id="email_address">
+
+				      	<span class="form_text">Address :</span>
+				      	<input class="form-control form_input" id="address">
+				    	<!-- 
+				    	<div class='action_btn'>
+				    		<button class="Download_btn btn btn-default">Download Template</button>
+				      		<button class="Upload_btn btn btn-default">Upload Client List</button>
+				    	</div> -->
+				    </div>
+		  		</form>
+            </div>
+		    
+	    </div>
+	  </div>
+	  
+	</div>
+</div>

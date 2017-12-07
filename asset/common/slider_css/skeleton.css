@@ -1,0 +1,34 @@
+   .slider{ position: relative; width: 960px; margin: 0 auto; padding: 0;}
+    .container .columns{ float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .container .sixteen.columns{ width: 940px; }
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .column,
+        .container .columns                         { margin-left: 10px; margin-right: 10px;}
+        .container .sixteen.columns                 { width: 748px; }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .container .columns,
+        .container .column { margin: 0; }
+        .container .sixteen.columns{ width: 300px; }
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .container .columns,
+        .container .column { margin: 0; }
+        .container .sixteen.columns{ width: 420px; }
+    }
+
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }

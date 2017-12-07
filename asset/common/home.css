@@ -1,0 +1,174 @@
+body{
+	text-align: center;
+}
+
+.header{
+	background: url(../images/home/header.png) no-repeat;
+	z-index: 100;
+	margin-bottom: 0vw;
+	padding-top: 10vw;
+}
+
+.header button {
+	background: linear-gradient(to bottom, #00be68 0%,#00be68 50%,#00a65a 50%,#00a65a 100%);
+}
+
+.subject{
+	z-index: 60;
+	margin-top: 0vw;
+}
+
+.about{
+	background: url(../images/home/about.png) no-repeat;
+	z-index: 80;
+}
+
+.company{
+	background: url(../images/home/company.png) no-repeat;
+	z-index: 80;
+}
+
+.customer{
+	background: url(../images/home/customer.png) no-repeat;
+	z-index: 70;
+}
+
+.panel {
+	width: 100%;
+	height: 57vw;
+	margin-bottom: -7.2vw;
+	background-size: cover;
+	position: relative;
+	border: 0 solid #000;
+}
+
+.left {
+	padding-top: 10%;
+	width: 50%;
+}
+
+.right {
+	padding-top: 15%;
+	float: right;
+	width: 50%;
+}
+
+.panel .title {
+	font-size: 3vw;
+	color: #2793ff;
+}
+
+.header .title {
+	font-size: 5vw;
+	color: white;
+	box-shadow: 	
+}
+
+.title .underline {
+	margin-top: -3.5vw;
+}
+
+
+.panel .text {
+	color: #555555;
+	text-align: left;
+	padding-left: 20pt;
+	padding-right: 20pt;
+	padding-top: 10pt;
+	font-size: 2.2vw;
+}
+
+.text1 {
+	color: #555555;
+	text-align: center;
+	padding-top: 10pt;
+	font-size: 2.2vw;
+}
+
+.subject .title {
+	margin-top: 10vw;
+	font-size: 3.5vw;
+}
+
+.subject .text {
+	text-align: center;
+	margin-top: 2vw;
+}
+
+.subject {
+	height: 25vw;
+}
+
+.readmore {
+	color: #2693ff;
+}
+
+.circle {
+	width: 2vw;
+	height: 2vw;
+	border-radius: 1vw;
+	background-color: #2693ff;
+}
+
+
+.partner {
+	padding-top: 10vw;
+	margin-bottom: 5vw !important;
+	margin: auto;
+	height: auto !important;
+}
+
+/*.circle-item {
+	float: left;
+}*/
+
+.circle-item {
+	/*margin-right: 5px;*/
+}
+
+.header-container {
+	width: 100%;
+	text-align: center;
+	padding-left: 20pt;
+    padding-right: 20pt;
+}
+
+.circle-item img {
+	width: 18vw;
+	height: 18vw;
+	/*margin-right: 10px;*/
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.center {
+	text-align: center;
+}
+
+.get_start {
+	box-shadow: 1px 2px 0.5px 0.5px #4f5e7d;
+	background: linear-gradient(to bottom, #2693ff 0%,#2693ff 50%,#1d7ad7 50%,#1d7ad7 100%);
+	font-weight: bold;
+	color: #fff;
+	border-radius: 15px;
+	width: 20vw;
+    height: 4vw;
+    font-size: 2vw;
+}
+
+.left_arr, .right_arr {
+	padding-top: 10%;
+	height: 100%;
+}
+
+.left_arr:hover, .right_arr:hover {
+	background-color: #000;
+}
+
+.panel {
+	box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+}
+
+.slider_image {
+	color: #fff !important;
+}

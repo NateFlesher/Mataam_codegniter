@@ -1,0 +1,114 @@
+.addClient_modal {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.close_btn {
+	float: left;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	border-color: #bbbbbb;
+	color: #fff;
+	border: 0px solid #bbbbbb;
+	cursor: pointer;
+}
+
+.close_btn:hover, .check_btn:hover {
+	border-color: #bbbbff;
+}
+
+.check_btn {
+	text-align: right;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	border-color: #bbbbbb;
+	color: #fff;
+	border: 0px solid #bbbbbb;
+	cursor: pointer;
+}
+
+.form_style {
+	text-align: left;
+}
+
+.form_text {
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+.form_input {
+	border-radius: 10px;
+	height: 50px;
+}
+
+.form_input1 {
+	float: left;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 20%
+}
+
+.form_input2 {
+	float: left;
+	border-left: 0px solid #000;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 80%;
+}
+
+.modal_content {
+	margin-top: 30px;
+}
+
+.role_up, .role_down{
+	border-radius: 10pt;
+	height: 35pt;
+}
+
+.role_up {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0 solid #fff;
+}
+
+.role_down {
+    border-top: 0 solid #fff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.sure_modal {
+	width: 400px;
+}
+
+.sure_ques {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.action_btn {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.action_btn .yes_btn {
+	background: linear-gradient(to bottom, #2693ff 0%,#2693ff 50%,#1d7ad7 50%,#1d7ad7 100%);
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 15px;
+	width: 100px;
+	margin-left: 100px;
+}
+
+.action_btn .no_btn {
+	background: linear-gradient(to bottom, #d31e03 0%,#d31e03 50%,#c11b03 50%,#c11b03 100%);
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 15px;
+	width: 100px;
+}

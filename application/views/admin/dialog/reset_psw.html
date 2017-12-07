@@ -1,0 +1,32 @@
+<!-- Modal -->
+<div class="modal fade" id="reset_psw" role="dialog">
+	<div class="modal-dialog addClient_modal modal-sm">
+
+	  <!-- Modal content-->
+	  <div class="modal-content">
+	    <div class="modal-body">
+	    	<div>
+                <div class="close_btn" data-dismiss="modal">
+                	<img src="<?php echo base_url(); ?>asset/images/close.png" />
+                </div>
+                <div class="check_btn" onclick="psw_update()">
+                	<img src="<?php echo base_url(); ?>asset/images/check.png" />
+                </div>
+            </div>
+            <div class="modal_content">
+            	<form>
+				    <div class="form-group form_style">
+				      	<span class="form_text">New Password :</span>
+				      	<input type='Password' class="form-control form_input" id="new_psw">
+
+				      	<span class="form_text">Confirm New Password : </span>
+				      	<input type='Password' class="form-control form_input" id="confirm_new_psw">
+				    </div>
+		  		</form>
+            </div>
+		    
+	    </div>
+	  </div>
+	  
+	</div>
+</div>
